@@ -1,0 +1,31 @@
+{
+  "name": "nlw-copa-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocsc99/NLW-Copa-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrocsc99/NLW-Copa-Api/issues"
+  },
+  "homepage": "https://github.com/pedrocsc99/NLW-Copa-Api#readme",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.1.7",
+    "prisma": "^4.5.0",
+    "prisma-erd-generator": "^1.2.2",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "fastify": "^4.9.2"
+  }
+}
